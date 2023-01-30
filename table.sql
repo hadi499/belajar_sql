@@ -24,9 +24,12 @@ DESCRIBE products;
 INSERT INTO products(id, name, description, price) VALUES ('RT001', 'mie ayam', 'enak sekali', 4000);
 -- * insert table lebih dari satu
 INSERT INTO products(id, name, description, price) 
-VALUES ('RT002', 'mie goreng', 'enak sekali', 8000),
-		 ('RT003', 'kopi', 'enak sekali', 5000),
-          ('RT004', 'teh manis', 'enak sekali', 4000);
+VALUES ('RT005', 'mie goreng', 'enak sekali', 8000),
+		 ('RT006', 'er', 'enak sekali', 7000),
+		 ('RT007', 'tg', 'enak sekali', 4000),
+		 ('RT008', 'yu', 'enak sekali', 6500),
+		 ('RT009', 'jk', 'enak sekali', 3200),
+          ('RT010', 'olp', 'enak sekali', 4000);
 
 -- * melihat table
 SHOW TABLES;
