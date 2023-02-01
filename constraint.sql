@@ -7,3 +7,10 @@ CREATE TABLE customers
     PRIMARY KEY (id),
     UNIQUE KEY email_unique (email)
 ) ENGINE = InnoDB;
+
+
+ALTER TABLE customers
+DROP CONSTRAINT email_unique;
+
+ALTER TABLE customers
+ADD CONSTRAINT email_unique UNIQUE (email);
